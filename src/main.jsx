@@ -7,9 +7,14 @@ import App from "./App";
 // css
 import "./index.css";
 
-// render app
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// render app safely
+const rootEl = document.getElementById("root");
+
+if (!rootEl._reactRootContainer) {
+  const root = ReactDOM.createRoot(rootEl);
+  root.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
+}
