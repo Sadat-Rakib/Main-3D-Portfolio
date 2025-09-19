@@ -32,7 +32,7 @@ const Projects = () => {
         {/* projects text */}
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-          Since 2023, I have led AI-powered initiatives that have driven 2.8x revenue growth and achieved 85% customer satisfaction across platforms serving more than 2M users each month. The projects highlighted here represent my most meaningful work. Many are open source, providing the opportunity to explore the codebase and contribute. Collaborative innovation continues to shape and enhance these solutions.
+          Since 2023, I have built and led AI powered products that have delivered 2.8 times revenue growth and reached 85 percent customer satisfaction across platforms serving more than 2 million users every month. The projects featured here showcase my most impactful work, many of which are open source so you can explore the codebase and contribute directly. I believe in collaborative innovation, and each of these solutions continues to evolve through shared ideas and real world application.
           </p>
         </div>
 

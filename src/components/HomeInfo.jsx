@@ -28,21 +28,21 @@ const renderContent = {
   ),
   2: (
     <InfoBox
-    text="Collaborated with top tech firms and institutions, driving 2.8x revenue growth and 85% customer satisfaction with AI-powered full-stack solutions serving 2M+ users monthly."
+    text="I have collaborated with leading technology firms and institutions to deliver AI powered full stack solutions that drove 2.8 times revenue growth, achieved 85 percent customer satisfaction, and served more than 2 million users each month."
     link="/about"
     btnText="Learn more"
   />
   ),
   3: (
     <InfoBox
-      text="Led AI-driven projects boosting performance by 200% and delivering $10M+ in value across scalable web applications. Curious about the impact?"
+      text="Led AI driven projects that boosted performance by 200 percent and delivered more than 15 million dollars in value across scalable web applications. Explore the projects to see the impact."
       link="/projects"
       btnText="Visit my portfolio"
     />
   ),
   4: (
     <InfoBox
-      text="Ready to elevate your team with 3.2x order value increases and real-time solutions? Let’s discuss your next project."
+      text="Driving 3.2× order value through real-time, scalable solutions—building the next generation of high-impact products."
       link="/contact"
       btnText="Let's talk"
     />

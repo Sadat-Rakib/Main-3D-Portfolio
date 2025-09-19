@@ -1,4 +1,4 @@
-import { Algoverse, Daylily, HUVTSP } from "../assets/images";
+import { Velric, Algoverse, Daylily, HUVTSP } from "../assets/images";
 import AWS from "../assets/icons/aws.svg";
 import arrow from "../assets/icons/arrow.svg";
 import car from "../assets/icons/car.svg";
@@ -46,6 +46,7 @@ import supabase from "../assets/icons/supabase.svg";
 import githubactions from "../assets/icons/githubactions.svg";
 import cicd from "../assets/icons/cicd.svg"
 
+
 // sidebar links
 export const SIDEBAR_LINKS = [
   {
@@ -64,6 +65,11 @@ export const SIDEBAR_LINKS = [
 
 // skills
 export const SKILLS = [
+  {
+    imageUrl: nextjs,
+    name: "Next.js",
+    type: "Frontend & UI",
+  },
   {
     imageUrl: react,
     name: "React.js",
@@ -228,9 +234,22 @@ export const EXTRA_LINKS = {
 export const EXPERIENCES = [
   {
     title: "Full Stack Developer",
+    company_name: "Velric",
+    icon: Velric, 
+    iconBg: "#6a0dad", 
+    date: "Sept 2025 - Present",
+    points: [
+      "Architected and deployed an MVP of the AI-powered Missions platform, designed to onboard 1,000+ students on the waitlist and provide a compelling demo environment for investors.",
+      "Built and connected advanced OpenAI APIs for mission generation and ranking, while designing interactive features (star ratings, mission start flow) that are projected to increase user engagement by 25–30%.",
+      "Developed scalable frontend modules (sorting, filtering, pagination) using Next.js, TypeScript, and Tailwind, cutting mission load times by ~35% during internal testing and enhancing pre-launch usability.",
+      "Delivered end-to-end fullstack systems (Next.js interfaces, PostgreSQL database, OpenAI API integration) in just 3 weeks as the only developer, reducing the time-to-launch by over a month and ensuring market readiness.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
     company_name: "Daylily AI",
     icon: Daylily,
-    iconBg: "#a2d2ff",
+    iconBg: "#ffc8dd",
     date: "Aug 2025 - Present",
     points: [
       "Directed the development of cutting-edge AI-powered e-commerce platforms with virtual sales avatars for global leaders like 100 Thieves and Jazwares.",
@@ -244,7 +263,7 @@ export const EXPERIENCES = [
     title: "Research Fellow",
     company_name: "Algoverse",
     icon: Algoverse,
-    iconBg: "#b7e4c7",
+    iconBg: "#A2D2FF",
     date: "Jun 2025 - Sept 2025",
     points: [
       "Research fellowship focused on Large Language Models and Applied ML.",
@@ -258,7 +277,7 @@ export const EXPERIENCES = [
     title: "Innovation Fellow",
     company_name: "Harvard HUVTSP",
     icon: HUVTSP,
-    iconBg: "#accbe1",
+    iconBg: "#FF0000",
     date: "Jun 2025 - Jul 2025",
     points: [
       "Elite innovation fellowship working with venture-backed founders.",
@@ -269,6 +288,8 @@ export const EXPERIENCES = [
     ],
   },
 ];
+
+
 
 // projects
 export const PROJECTS = [

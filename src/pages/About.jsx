@@ -34,7 +34,8 @@ const About = () => {
         {/* about text */}
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            AI FullStack Developer/Engineer based in Canada. Architecting digital experiences that bridge AI innovation with human needs, delivering $15M+ revenue impact and 2M+ user interactions monthly. 
+          AI Full Stack Developer | Startup Builder | FinTech and E-commerce Engineering
+          Based in Canada, I build AI powered platforms that generate more than 15 million dollars in revenue impact and support over 2 million user interactions each month. My work combines advanced AI innovation with practical human needs, creating scalable solutions across e-commerce, fintech, and education technology.
           </p>
         </div>
 
